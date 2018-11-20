@@ -1,0 +1,36 @@
+#tabs {
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    top: 1px;
+    display: block;
+    margin: 0;
+    margin-right: 1px;
+    padding: 0;
+    float: left;
+    border-bottom: 1px solid black;
+}
+ 
+#tabs a {
+    display: block;
+    padding: 2px 10px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+a:hover { 
+    background-color: #8a2be2;
+}
+ 
+.tab-section {
+    background: #f0f8ff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+ 
+#tabs a.current {
+    background: #f0f8ff;
+    color: #000;
+}
