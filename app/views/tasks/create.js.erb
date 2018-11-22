@@ -1,0 +1,8 @@
+$(document).ready(function() {
+
+let new_task = $("<%= j (render 'layouts/_task_list', task: @task) %>");
+// Je crée ma variable new_gossip. Le j signifie escape javascript et permet d'executer de l'erb.
+
+$('ul').append(new_task);
+
+});
